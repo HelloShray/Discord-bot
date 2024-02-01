@@ -45,5 +45,4 @@ def run_discord_bot():
         else:
             await send_message(message, user_message, is_private=False)
 
-    # Remember to run your bot with your personal TOKEN
     client.run(TOKEN)
