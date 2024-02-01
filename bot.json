@@ -1,0 +1,44 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["It", "is", "going", "well"],
+    "bot_response": "That is great to hear!",
+    "required_words": ["going", "well"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "coding", "code", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking. How's your day going?",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "command",
+    "user_input": ["make", "me", "a","coffee"],
+    "bot_response": "Here is your coffee! https://images.immediate.co.uk/production/volatile/sites/30/2020/08/flat-white-3402c4f.jpg",
+    "required_words": ["make", "coffee"]
+  }
+]
